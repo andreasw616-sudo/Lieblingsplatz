@@ -2528,3 +2528,51 @@ a.contact-link-value-new:hover {
         grid-auto-rows: 200px;
     }
 }
+
+/* 22. Neuer Globaler SEO-Footer */
+.fw-footer-new {
+    background-color: #111;
+    text-align: center;
+    padding: 40px 60px;
+}
+.fw-footer-new a {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 13px;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+.fw-footer-new a:hover {
+    color: rgba(255, 255, 255, 0.8);
+}
+.fw-footer-links-seo {
+    margin-bottom: 12px;
+}
+.fw-footer-links-legal {
+    margin-bottom: 16px;
+}
+.fw-footer-divider {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 13px;
+    margin: 0 12px;
+}
+.fw-footer-copyright {
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 13px;
+}
+
+/* Footer Mobile Overrides */
+@media (max-width: 768px) {
+    .fw-footer-new {
+        padding: 32px 16px;
+    }
+    .fw-footer-links-seo,
+    .fw-footer-links-legal {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        margin-bottom: 24px;
+    }
+    .fw-footer-divider {
+        display: none;
+    }
+}
