@@ -1,19 +1,65 @@
+// Carousel Globals (für onclick-Zugriff)
+let currentIndex = 0;
+const images = [
+    "grömnitz/image00001.jpg",
+    "grömnitz/image00002.jpg",
+    "grömnitz/image00002_01.jpg",
+    "grömnitz/image00003.jpg",
+    "grömnitz/image00003_01.jpg",
+    "grömnitz/image00004.jpg",
+    "grömnitz/image00006.jpg",
+    "grömnitz/image00008.jpg",
+    "grömnitz/image00009_01.jpg",
+    "grömnitz/image00013_01.jpg",
+    "grömnitz/image00016.jpg",
+    "grömnitz/image00017-1.jpg",
+    "grömnitz/image00018_01-scaled.jpg",
+    "grömnitz/image00021_01-1.jpg",
+    "grömnitz/image00022_01.jpg",
+    "grömnitz/image00024.jpg",
+    "grömnitz/image00025_01.jpg",
+    "grömnitz/image00026_01.jpg",
+    "grömnitz/image00027.jpg",
+    "grömnitz/image00028-scaled.jpeg",
+    "grömnitz/image00030.jpg",
+    "grömnitz/image00032.jpg",
+    "grömnitz/image00033.jpg"
+];
+
+function showSlide(index) {
+    const imgElement = document.getElementById('carousel-img');
+    if (!imgElement) return;
+    
+    if (index < 0) index = images.length - 1;
+    if (index >= images.length) index = 0;
+    currentIndex = index;
+    imgElement.src = images[index];
+}
+
+function nextSlide() {
+    showSlide(currentIndex + 1);
+}
+
+function prevSlide() {
+    showSlide(currentIndex - 1);
+}
+
 document.addEventListener('DOMContentLoaded', () => {
-    // Carousel Logic
-    const carouselTrack = document.getElementById('image-carousel');
-    const prevBtn = document.getElementById('carousel-prev');
-    const nextBtn = document.getElementById('carousel-next');
+    // Touch/Swipe Logic
+    const carousel = document.getElementById('carousel');
+    if (carousel) {
+        let touchStartX = 0;
+        let touchEndX = 0;
 
-    if(carouselTrack && prevBtn && nextBtn) {
-        prevBtn.addEventListener('click', () => {
-            const width = carouselTrack.clientWidth;
-            carouselTrack.scrollBy({ left: -width, behavior: 'smooth' });
-        });
+        carousel.addEventListener('touchstart', (e) => {
+            touchStartX = e.changedTouches[0].screenX;
+        }, { passive: true });
 
-        nextBtn.addEventListener('click', () => {
-            const width = carouselTrack.clientWidth;
-            carouselTrack.scrollBy({ left: width, behavior: 'smooth' });
-        });
+        carousel.addEventListener('touchend', (e) => {
+            touchEndX = e.changedTouches[0].screenX;
+            if (touchStartX - touchEndX > 50) nextSlide();
+            if (touchEndX - touchStartX > 50) prevSlide();
+        }, { passive: true });
     }
 
     // Mobile Navigation Toggle

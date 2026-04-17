@@ -23,7 +23,6 @@
             <nav class="navbar-nav">
                 <a href="#startseite" class="nav-link">Startseite</a>
                 <a href="#die-wohnung" class="nav-link">Die Wohnung</a>
-                <a href="#lage" class="nav-link">Lage</a>
                 <a href="#ausstattung" class="nav-link">Ausstattung</a>
                 <a href="#preise" class="nav-link">Preise</a>
                 <a href="#kontakt" class="nav-link">Kontakt</a>
@@ -49,7 +48,8 @@
             <img src="grömnitz/image00001.jpg" alt="Ferienwohnung Lieblingsplatz Grömitz" class="img-fluid img-bg" style="object-position: center;">
             <div class="hero-overlay-dark"></div>
             <div class="cta-feelgood-content">
-                <h2 class="font-light">Ihr Wohlfühlurlaub beginnt hier!</h2>
+                <h1 class="hero-headline">Endlich wieder durchatmen.</h1>
+                <p class="hero-subheadline">Ihre moderne Penthouse-Ferienwohnung in Grömitz, nur 200 m vom Ostseestrand.</p>
                 <a href="#die-wohnung" class="btn btn-hero">Wohnung ansehen</a>
             </div>
         </section>
@@ -129,45 +129,32 @@
                 </div>
             </div>
             <div class="container mt-md">
-                <div class="listing-card">
-                    <div class="carousel-track" id="image-carousel">
-                        <img src="grömnitz/image00001.jpg" alt="Ferienwohnung Bild 1">
-                        <img src="grömnitz/image00002.jpg" alt="Ferienwohnung Bild 2" loading="lazy">
-                        <img src="grömnitz/image00002_01.jpg" alt="Ferienwohnung Bild 3" loading="lazy">
-                        <img src="grömnitz/image00003.jpg" alt="Ferienwohnung Bild 4" loading="lazy">
-                        <img src="grömnitz/image00003_01.jpg" alt="Ferienwohnung Bild 5" loading="lazy">
-                        <img src="grömnitz/image00004.jpg" alt="Ferienwohnung Bild 6" loading="lazy">
-                        <img src="grömnitz/image00004 (1).jpg" alt="Ferienwohnung Bild 7" loading="lazy">
-                        <img src="grömnitz/image00006.jpg" alt="Ferienwohnung Bild 8" loading="lazy">
-                        <img src="grömnitz/image00008.jpg" alt="Ferienwohnung Bild 9" loading="lazy">
-                        <img src="grömnitz/image00009_01.jpg" alt="Ferienwohnung Bild 10" loading="lazy">
-                        <img src="grömnitz/image00013_01.jpg" alt="Ferienwohnung Bild 11" loading="lazy">
-                        <img src="grömnitz/image00016.jpg" alt="Ferienwohnung Bild 12" loading="lazy">
-                        <img src="grömnitz/image00017-1.jpg" alt="Ferienwohnung Bild 13" loading="lazy">
-                        <img src="grömnitz/image00018_01-scaled.jpg" alt="Ferienwohnung Bild 14" loading="lazy">
-                        <img src="grömnitz/image00021_01-1.jpg" alt="Ferienwohnung Bild 15" loading="lazy">
-                        <img src="grömnitz/image00022_01.jpg" alt="Ferienwohnung Bild 16" loading="lazy">
-                        <img src="grömnitz/image00024.jpg" alt="Ferienwohnung Bild 17" loading="lazy">
-                        <img src="grömnitz/image00025_01.jpg" alt="Ferienwohnung Bild 18" loading="lazy">
-                        <img src="grömnitz/image00026_01.jpg" alt="Ferienwohnung Bild 19" loading="lazy">
-                        <img src="grömnitz/image00027.jpg" alt="Ferienwohnung Bild 20" loading="lazy">
-                        <img src="grömnitz/image00028-scaled.jpeg" alt="Ferienwohnung Bild 21" loading="lazy">
-                        <img src="grömnitz/image00030.jpg" alt="Ferienwohnung Bild 22" loading="lazy">
-                        <img src="grömnitz/image00032.jpg" alt="Ferienwohnung Bild 23" loading="lazy">
-                        <img src="grömnitz/image00033.jpg" alt="Ferienwohnung Bild 24" loading="lazy">
+                <div class="carousel" id="carousel">
+                    <div class="carousel-inner">
+                        <img id="carousel-img" src="grömnitz/image00001.jpg" alt="Ferienwohnung Lieblingsplatz Grömitz" style="width:100%; height:500px; object-fit:cover; border-radius:16px;">
                     </div>
-                    <div class="listing-badge bg-white">1 Schlafzimmer / max. 4 Personen</div>
-                    <div class="listing-info">
-                        <div class="listing-texts">
-                            <h3 class="text-white">Lieblingsplatz Grömitz</h3>
-                            <p class="text-white"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg> Seestr. 9a, Grömitz</p>
-                        </div>
-                        <div class="listing-price-badge">ab 99 € / Nacht</div>
+                
+                    <!-- Badge oben rechts -->
+                    <div class="badge-top-right">
+                        1 Schlafzimmer / max. 4 Personen
+                    </div>
+                
+                    <!-- Badge unten links -->
+                    <div class="badge-bottom-left">
+                        <strong>Lieblingsplatz Grömitz</strong><br>
+                        📍 Seestr. 9a, Grömitz
+                    </div>
+                
+                    <!-- Badge unten rechts -->
+                    <div class="badge-bottom-right">
+                        ab 99 € / Nacht
                     </div>
                 </div>
-                <div class="nav-arrows pb-md mt-sm">
-                    <button class="btn-icon" id="carousel-prev" aria-label="Zurück"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg></button>
-                    <button class="btn-icon" id="carousel-next" aria-label="Vor"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg></button>
+                
+                <!-- Pfeil-Navigation -->
+                <div class="carousel-nav">
+                    <button onclick="prevSlide()">←</button>
+                    <button onclick="nextSlide()">→</button>
                 </div>
             </div>
         </section>
