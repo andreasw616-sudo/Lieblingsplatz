@@ -2642,3 +2642,13 @@ select {
     letter-spacing: 0.08em;
     text-transform: uppercase;
 }
+
+/* SEO & GEO Visibility */
+.hero-geo-text {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.7);
+    max-width: 500px;
+    margin: 12px auto 0;
+    text-align: center;
+    line-height: 1.5;
+}
