@@ -1885,7 +1885,7 @@ select {
 /* 17. FAQ SECTION */
 .faq-section-new {
     background-color: #f5f3ef;
-    padding: 80px 60px;
+    padding: 32px 60px 80px;
 }
 .faq-container-new {
     max-width: 800px;
