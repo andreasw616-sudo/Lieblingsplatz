@@ -1091,39 +1091,53 @@
     <script src="main.js"></script>
 <script>
 document.getElementById('contact-form')
-.addEventListener('submit', function(e) {
+.addEventListener('submit', async function(e) {
   e.preventDefault();
   
   const btn = this.querySelector('[type="submit"]');
-  const anreise = document.getElementById('anreise').value;
-  const abreise = document.getElementById('abreise').value;
-  const personen = document.getElementById('personen').value;
-  const kinder = document.getElementById('kinder').value;
-  const vorname = document.getElementById('vorname').value;
-  const nachname = document.getElementById('nachname').value;
-  const telefon = document.getElementById('telefon').value;
-  const email = document.getElementById('email').value;
-  const nachricht = document.getElementById('nachricht').value;
+  const originalText = btn.textContent;
+  btn.textContent = 'Wird gesendet...';
+  btn.disabled = true;
 
-  const betreff = encodeURIComponent(
-    'Buchungsanfrage von ' + vorname + ' ' + nachname
-  );
-  
-  const body = encodeURIComponent(
-    'Anreise: ' + anreise + '\n' +
-    'Abreise: ' + abreise + '\n' +
-    'Personen: ' + personen + '\n' +
-    'Kinder: ' + kinder + '\n\n' +
-    'Name: ' + vorname + ' ' + nachname + '\n' +
-    'Telefon: ' + telefon + '\n' +
-    'E-Mail: ' + email + '\n\n' +
-    'Nachricht:\n' + nachricht
-  );
+  const data = {
+    anreise: document.getElementById('anreise').value,
+    abreise: document.getElementById('abreise').value,
+    personen: document.getElementById('personen').value,
+    kinder: document.getElementById('kinder').value,
+    vorname: document.getElementById('vorname').value,
+    nachname: document.getElementById('nachname').value,
+    telefon: document.getElementById('telefon').value,
+    email: document.getElementById('email').value,
+    nachricht: document.getElementById('nachricht').value
+  };
 
-  window.location.href = 
-    'mailto:info@lieblingsplatz-groemitz.de' +
-    '?subject=' + betreff +
-    '&body=' + body;
+  try {
+    const response = await fetch('/api/contact', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify(data)
+    });
+
+    const result = await response.json();
+
+    if (response.ok && result.ok) {
+      document.getElementById('contact-form').innerHTML = 
+        '<div style="text-align:center;padding:48px 20px;">' +
+        '<p style="font-size:22px;font-weight:500;margin-bottom:12px;color:#111;">' +
+        'Vielen Dank für Ihre Anfrage!</p>' +
+        '<p style="color:#666;font-size:15px;line-height:1.6;">' +
+        'Wir melden uns so schnell wie möglich bei Ihnen.<br>' +
+        'Ihr Lieblingsplatz-Team</p></div>';
+    } else {
+      btn.textContent = originalText;
+      btn.disabled = false;
+      alert(result.error || 'Fehler beim Senden. Bitte rufen Sie uns an: +49 160 573 0681');
+    }
+  } catch(err) {
+    btn.textContent = originalText;
+    btn.disabled = false;
+    alert('Verbindungsfehler. Bitte versuchen Sie es erneut.');
+  }
 });
 </script>
 </body>
