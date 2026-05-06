@@ -726,7 +726,7 @@
                 <!-- RECHTE SPALTE: FORMULAR -->
                 <div class="contact-form-col-new">
                     <div class="form-card-new">
-                        <form id="contact-form" action="https://formspree.io/f/xnnqbkve" method="POST">
+                        <form id="contact-form">
                             <div class="form-row-new">
                                 <div class="form-group-new">
                                     <label for="anreise">Anreise</label>
@@ -1090,41 +1090,40 @@
 
     <script src="main.js"></script>
 <script>
-const form = document.getElementById('contact-form');
-const btn = document.getElementById('submit-btn') 
-  || form.querySelector('[type="submit"]');
-
-form.addEventListener('submit', async function(e) {
+document.getElementById('contact-form')
+.addEventListener('submit', function(e) {
   e.preventDefault();
   
-  if (btn) {
-    btn.textContent = 'Wird gesendet...';
-    btn.disabled = true;
-  }
+  const btn = this.querySelector('[type="submit"]');
+  const anreise = document.getElementById('anreise').value;
+  const abreise = document.getElementById('abreise').value;
+  const personen = document.getElementById('personen').value;
+  const kinder = document.getElementById('kinder').value;
+  const vorname = document.getElementById('vorname').value;
+  const nachname = document.getElementById('nachname').value;
+  const telefon = document.getElementById('telefon').value;
+  const email = document.getElementById('email').value;
+  const nachricht = document.getElementById('nachricht').value;
 
-  try {
-    const response = await fetch(form.action, {
-      method: 'POST',
-      body: new FormData(form),
-      headers: { 'Accept': 'application/json' }
-    });
+  const betreff = encodeURIComponent(
+    'Buchungsanfrage von ' + vorname + ' ' + nachname
+  );
+  
+  const body = encodeURIComponent(
+    'Anreise: ' + anreise + '\n' +
+    'Abreise: ' + abreise + '\n' +
+    'Personen: ' + personen + '\n' +
+    'Kinder: ' + kinder + '\n\n' +
+    'Name: ' + vorname + ' ' + nachname + '\n' +
+    'Telefon: ' + telefon + '\n' +
+    'E-Mail: ' + email + '\n\n' +
+    'Nachricht:\n' + nachricht
+  );
 
-    if (response.ok) {
-      form.innerHTML = '<div style="text-align:center; padding:48px 20px;"><p style="font-size:22px; font-weight:500; margin-bottom:12px;">Vielen Dank für Ihre Anfrage!</p><p style="color:#666; font-size:15px; line-height:1.6;">Wir melden uns so schnell wie möglich bei Ihnen.<br>Ihr Lieblingsplatz-Team</p></div>';
-    } else {
-      if (btn) {
-        btn.textContent = 'Anfrage absenden';
-        btn.disabled = false;
-      }
-      alert('Es gab einen Fehler beim Senden. Bitte versuchen Sie es erneut oder schreiben Sie uns direkt an info@lieblingsplatz-groemitz.de');
-    }
-  } catch(err) {
-    if (btn) {
-      btn.textContent = 'Anfrage absenden';
-      btn.disabled = false;
-    }
-    alert('Verbindungsfehler. Bitte versuchen Sie es erneut.');
-  }
+  window.location.href = 
+    'mailto:info@lieblingsplatz-groemitz.de' +
+    '?subject=' + betreff +
+    '&body=' + body;
 });
 </script>
 </body>
