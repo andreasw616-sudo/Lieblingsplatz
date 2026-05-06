@@ -724,7 +724,7 @@
                 <!-- RECHTE SPALTE: FORMULAR -->
                 <div class="contact-form-col-new">
                     <div class="form-card-new">
-                        <form id="contact-form" action="mailto:info@lieblingsplatz-groemitz.de" method="post" enctype="text/plain">
+                        <form id="contact-form" action="https://formspree.io/f/xnnqbkve" method="POST">
                             <div class="form-row-new">
                                 <div class="form-group-new">
                                     <label for="anreise">Anreise</label>
@@ -1087,5 +1087,43 @@
     </footer>
 
     <script src="main.js"></script>
+<script>
+const form = document.getElementById('contact-form');
+const btn = document.getElementById('submit-btn') 
+  || form.querySelector('[type="submit"]');
+
+form.addEventListener('submit', async function(e) {
+  e.preventDefault();
+  
+  if (btn) {
+    btn.textContent = 'Wird gesendet...';
+    btn.disabled = true;
+  }
+
+  try {
+    const response = await fetch(form.action, {
+      method: 'POST',
+      body: new FormData(form),
+      headers: { 'Accept': 'application/json' }
+    });
+
+    if (response.ok) {
+      form.innerHTML = '<div style="text-align:center; padding:48px 20px;"><p style="font-size:22px; font-weight:500; margin-bottom:12px;">Vielen Dank für Ihre Anfrage!</p><p style="color:#666; font-size:15px; line-height:1.6;">Wir melden uns so schnell wie möglich bei Ihnen.<br>Ihr Lieblingsplatz-Team</p></div>';
+    } else {
+      if (btn) {
+        btn.textContent = 'Anfrage absenden';
+        btn.disabled = false;
+      }
+      alert('Es gab einen Fehler beim Senden. Bitte versuchen Sie es erneut oder schreiben Sie uns direkt an info@lieblingsplatz-groemitz.de');
+    }
+  } catch(err) {
+    if (btn) {
+      btn.textContent = 'Anfrage absenden';
+      btn.disabled = false;
+    }
+    alert('Verbindungsfehler. Bitte versuchen Sie es erneut.');
+  }
+});
+</script>
 </body>
 </html>
