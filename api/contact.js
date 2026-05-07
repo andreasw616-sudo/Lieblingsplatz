@@ -62,11 +62,11 @@ module.exports = async (req, res) => {
         `;
 
         const mailOptions = {
-            from: \`"Lieblingsplatz Website" <\${process.env.SMTP_USER}>\`,
+            from: `"Lieblingsplatz Website" <${process.env.SMTP_USER}>`,
             to: 'info@lieblingsplatz-groemitz.de',
             replyTo: email,
-            subject: \`Neue Buchungsanfrage von \${vorname} \${nachname}\`,
-            text: \`Neue Buchungsanfrage\n\nAnreise: \${anreise}\nAbreise: \${abreise}\nPersonen: \${personen}\nKinder: \${kinder}\n\nName: \${vorname} \${nachname}\nTelefon: \${telefon}\nE-Mail: \${email}\n\nNachricht:\n\${nachricht}\`,
+            subject: `Neue Buchungsanfrage von ${vorname} ${nachname}`,
+            text: `Neue Buchungsanfrage\n\nAnreise: ${anreise}\nAbreise: ${abreise}\nPersonen: ${personen}\nKinder: ${kinder}\n\nName: ${vorname} ${nachname}\nTelefon: ${telefon}\nE-Mail: ${email}\n\nNachricht:\n${nachricht}`,
             html: htmlContent
         };
 
