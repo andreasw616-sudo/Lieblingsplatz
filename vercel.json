@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "lieblingsplatz-groemitz.de"
+        }
+      ],
+      "destination": "https://www.lieblingsplatz-groemitz.de/:path*",
+      "permanent": true
+    }
+  ]
+}
