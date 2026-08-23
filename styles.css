@@ -2665,3 +2665,275 @@ select {
     white-space: nowrap !important;
     border: 0 !important;
 }
+
+/* ==========================================================================
+   14. Blog Article Extensions (GEO/SEO Content-Bausteine)
+   ========================================================================== */
+
+/* Breadcrumb */
+.article-breadcrumb {
+    font-size: 13px;
+    color: #888;
+    margin-bottom: 20px;
+}
+.article-breadcrumb a {
+    color: #888;
+    text-decoration: none;
+}
+.article-breadcrumb a:hover {
+    color: var(--color-text-dark);
+    text-decoration: underline;
+}
+.article-breadcrumb span {
+    margin: 0 6px;
+}
+
+/* Sprachumschalter */
+.article-lang {
+    font-size: 13px;
+    margin-bottom: 32px;
+}
+.article-lang a {
+    color: var(--color-text-dark);
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 1px solid #d8d3ca;
+    padding-bottom: 1px;
+}
+.article-lang a:hover {
+    border-bottom-color: var(--color-text-dark);
+}
+
+/* Antwortblock ("Kurz & knapp") */
+.geo-answer {
+    background-color: #f5f3ef;
+    border-left: 3px solid var(--color-text-dark);
+    border-radius: 0 12px 12px 0;
+    padding: 24px 28px;
+    margin: 0 0 40px 0;
+}
+.geo-answer-title {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--color-text-muted);
+    margin: 0 0 10px 0;
+}
+.geo-answer p {
+    font-size: 17px;
+    line-height: 1.7;
+    color: #222;
+    margin: 0;
+}
+
+/* Inhaltsverzeichnis */
+.article-toc {
+    border: 1px solid #e8e4dd;
+    border-radius: 12px;
+    padding: 20px 24px;
+    margin-bottom: 40px;
+}
+.article-toc-title {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--color-text-muted);
+    margin: 0 0 12px 0;
+}
+.article-toc ol {
+    margin: 0;
+    padding-left: 20px;
+}
+.article-toc li {
+    font-size: 15px;
+    line-height: 1.9;
+}
+.article-toc a {
+    color: #333;
+    text-decoration: none;
+}
+.article-toc a:hover {
+    text-decoration: underline;
+}
+
+/* Fließtext-Erweiterungen */
+.blog-article-content h2 {
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 1.3;
+    margin: 48px 0 16px 0;
+    scroll-margin-top: 90px;
+}
+.blog-article-content h2:first-child {
+    margin-top: 0;
+}
+.blog-article-content ul,
+.blog-article-content ol {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #333;
+    margin: 0 0 20px 0;
+    padding-left: 22px;
+}
+.blog-article-content li {
+    margin-bottom: 8px;
+}
+.blog-article-content a {
+    color: var(--color-text-dark);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+.blog-article-content strong {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+/* Faktentabellen */
+.table-scroll {
+    overflow-x: auto;
+    margin: 0 0 28px 0;
+    -webkit-overflow-scrolling: touch;
+}
+.article-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 15px;
+    min-width: 460px;
+}
+.article-table caption {
+    caption-side: top;
+    text-align: left;
+    font-size: 13px;
+    color: #888;
+    padding-bottom: 10px;
+}
+.article-table th,
+.article-table td {
+    text-align: left;
+    padding: 12px 14px;
+    border-bottom: 1px solid #e8e4dd;
+    vertical-align: top;
+    line-height: 1.6;
+}
+.article-table thead th {
+    background-color: #f5f3ef;
+    font-weight: 600;
+    font-size: 14px;
+    border-bottom: 1px solid #ddd7cc;
+}
+.article-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+/* Hinweiskasten */
+.article-note {
+    background-color: #fbfaf8;
+    border: 1px solid #e8e4dd;
+    border-radius: 12px;
+    padding: 20px 24px;
+    margin: 0 0 28px 0;
+}
+.article-note p {
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.7;
+    color: #444;
+}
+.article-note strong {
+    display: block;
+    margin-bottom: 6px;
+    color: #1a1a1a;
+}
+
+/* FAQ */
+.article-faq {
+    margin-top: 56px;
+    padding-top: 40px;
+    border-top: 1px solid #e8e4dd;
+}
+.article-faq h2 {
+    font-size: 26px;
+    font-weight: 500;
+    margin: 0 0 28px 0;
+}
+.faq-item {
+    margin-bottom: 26px;
+}
+.faq-item h3 {
+    font-size: 17px;
+    font-weight: 600;
+    margin: 0 0 8px 0;
+}
+.faq-item p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #333;
+    margin: 0;
+}
+
+/* Quellen */
+.article-sources {
+    margin-top: 48px;
+    padding-top: 24px;
+    border-top: 1px solid #e8e4dd;
+    font-size: 13px;
+    color: #888;
+    line-height: 1.8;
+}
+.article-sources strong {
+    display: block;
+    margin-bottom: 6px;
+    color: #555;
+    font-weight: 600;
+}
+.article-sources a {
+    color: #888;
+}
+
+/* Weiterlesen */
+.article-related {
+    margin-top: 48px;
+}
+.article-related h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 0 16px 0;
+}
+.article-related ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.article-related li {
+    border-bottom: 1px solid #e8e4dd;
+}
+.article-related li:first-child {
+    border-top: 1px solid #e8e4dd;
+}
+.article-related a {
+    display: block;
+    padding: 14px 0;
+    font-size: 16px;
+    color: var(--color-text-dark);
+    text-decoration: none;
+}
+.article-related a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .geo-answer {
+        padding: 20px;
+    }
+    .geo-answer p {
+        font-size: 16px;
+    }
+    .blog-article-content h2 {
+        font-size: 22px;
+    }
+    .article-table {
+        font-size: 14px;
+    }
+}

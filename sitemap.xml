@@ -1,80 +1,266 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.lieblingsplatz-groemitz.de/</loc>
-    <lastmod>2026-06-21</lastmod>
+    <lastmod>2026-08-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.lieblingsplatz-groemitz.de/ferienwohnung-groemitz.html</loc>
-    <lastmod>2026-06-21</lastmod>
+    <lastmod>2026-08-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.lieblingsplatz-groemitz.de/ferienwohnung-groemitz-strandnah.html</loc>
-    <lastmod>2026-06-21</lastmod>
+    <lastmod>2026-08-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.lieblingsplatz-groemitz.de/penthouse-ferienwohnung-groemitz.html</loc>
-    <lastmod>2026-06-21</lastmod>
+    <lastmod>2026-08-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.lieblingsplatz-groemitz.de/barrierefreie-ferienwohnung-groemitz.html</loc>
-    <lastmod>2026-06-21</lastmod>
+    <lastmod>2026-08-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.lieblingsplatz-groemitz.de/blog.html</loc>
-    <lastmod>2026-06-21</lastmod>
+    <lastmod>2026-08-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.lieblingsplatz-groemitz.de/blog-ausflugstipps.html</loc>
-    <lastmod>2026-06-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://www.lieblingsplatz-groemitz.de/en/blog.html</loc>
+    <lastmod>2026-08-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.lieblingsplatz-groemitz.de/blog-fahrradtouren.html</loc>
-    <lastmod>2026-06-21</lastmod>
+    <loc>https://www.lieblingsplatz-groemitz.de/blog-ausflugstipps.html</loc>
+    <lastmod>2026-08-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.lieblingsplatz-groemitz.de/blog-restaurants.html</loc>
-    <lastmod>2026-06-21</lastmod>
+    <lastmod>2026-08-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.lieblingsplatz-groemitz.de/blog-fahrradtouren.html</loc>
+    <lastmod>2026-08-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.lieblingsplatz-groemitz.de/blog-wassersport.html</loc>
-    <lastmod>2026-06-21</lastmod>
+    <lastmod>2026-08-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.lieblingsplatz-groemitz.de/blog-strand-groemitz.html</loc>
+    <lastmod>2026-08-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lieblingsplatz-groemitz.de/blog-strand-groemitz.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lieblingsplatz-groemitz.de/en/groemitz-beach-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lieblingsplatz-groemitz.de/blog-strand-groemitz.html"/>
+  </url>
+  <url>
+    <loc>https://www.lieblingsplatz-groemitz.de/en/groemitz-beach-guide.html</loc>
+    <lastmod>2026-08-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lieblingsplatz-groemitz.de/blog-strand-groemitz.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lieblingsplatz-groemitz.de/en/groemitz-beach-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lieblingsplatz-groemitz.de/blog-strand-groemitz.html"/>
+  </url>
+  <url>
+    <loc>https://www.lieblingsplatz-groemitz.de/blog-seebruecke-tauchgondel.html</loc>
+    <lastmod>2026-08-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lieblingsplatz-groemitz.de/blog-seebruecke-tauchgondel.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lieblingsplatz-groemitz.de/en/groemitz-pier-diving-gondola.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lieblingsplatz-groemitz.de/blog-seebruecke-tauchgondel.html"/>
+  </url>
+  <url>
+    <loc>https://www.lieblingsplatz-groemitz.de/en/groemitz-pier-diving-gondola.html</loc>
+    <lastmod>2026-08-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lieblingsplatz-groemitz.de/blog-seebruecke-tauchgondel.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lieblingsplatz-groemitz.de/en/groemitz-pier-diving-gondola.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lieblingsplatz-groemitz.de/blog-seebruecke-tauchgondel.html"/>
+  </url>
+  <url>
+    <loc>https://www.lieblingsplatz-groemitz.de/blog-beste-reisezeit-groemitz.html</loc>
+    <lastmod>2026-08-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lieblingsplatz-groemitz.de/blog-beste-reisezeit-groemitz.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lieblingsplatz-groemitz.de/en/groemitz-best-time-to-visit.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lieblingsplatz-groemitz.de/blog-beste-reisezeit-groemitz.html"/>
+  </url>
+  <url>
+    <loc>https://www.lieblingsplatz-groemitz.de/en/groemitz-best-time-to-visit.html</loc>
+    <lastmod>2026-08-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lieblingsplatz-groemitz.de/blog-beste-reisezeit-groemitz.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lieblingsplatz-groemitz.de/en/groemitz-best-time-to-visit.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lieblingsplatz-groemitz.de/blog-beste-reisezeit-groemitz.html"/>
+  </url>
+  <url>
+    <loc>https://www.lieblingsplatz-groemitz.de/blog-anreise-parken-groemitz.html</loc>
+    <lastmod>2026-08-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lieblingsplatz-groemitz.de/blog-anreise-parken-groemitz.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lieblingsplatz-groemitz.de/en/how-to-get-to-groemitz.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lieblingsplatz-groemitz.de/blog-anreise-parken-groemitz.html"/>
+  </url>
+  <url>
+    <loc>https://www.lieblingsplatz-groemitz.de/en/how-to-get-to-groemitz.html</loc>
+    <lastmod>2026-08-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lieblingsplatz-groemitz.de/blog-anreise-parken-groemitz.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lieblingsplatz-groemitz.de/en/how-to-get-to-groemitz.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lieblingsplatz-groemitz.de/blog-anreise-parken-groemitz.html"/>
+  </url>
+  <url>
+    <loc>https://www.lieblingsplatz-groemitz.de/blog-kurtaxe-ostseecard-groemitz.html</loc>
+    <lastmod>2026-08-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lieblingsplatz-groemitz.de/blog-kurtaxe-ostseecard-groemitz.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lieblingsplatz-groemitz.de/en/groemitz-tourist-tax.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lieblingsplatz-groemitz.de/blog-kurtaxe-ostseecard-groemitz.html"/>
+  </url>
+  <url>
+    <loc>https://www.lieblingsplatz-groemitz.de/en/groemitz-tourist-tax.html</loc>
+    <lastmod>2026-08-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lieblingsplatz-groemitz.de/blog-kurtaxe-ostseecard-groemitz.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lieblingsplatz-groemitz.de/en/groemitz-tourist-tax.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lieblingsplatz-groemitz.de/blog-kurtaxe-ostseecard-groemitz.html"/>
+  </url>
+  <url>
+    <loc>https://www.lieblingsplatz-groemitz.de/blog-groemitz-bei-regen.html</loc>
+    <lastmod>2026-08-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lieblingsplatz-groemitz.de/blog-groemitz-bei-regen.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lieblingsplatz-groemitz.de/en/groemitz-rainy-day.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lieblingsplatz-groemitz.de/blog-groemitz-bei-regen.html"/>
+  </url>
+  <url>
+    <loc>https://www.lieblingsplatz-groemitz.de/en/groemitz-rainy-day.html</loc>
+    <lastmod>2026-08-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lieblingsplatz-groemitz.de/blog-groemitz-bei-regen.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lieblingsplatz-groemitz.de/en/groemitz-rainy-day.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lieblingsplatz-groemitz.de/blog-groemitz-bei-regen.html"/>
+  </url>
+  <url>
+    <loc>https://www.lieblingsplatz-groemitz.de/blog-tagesausfluege-groemitz.html</loc>
+    <lastmod>2026-08-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lieblingsplatz-groemitz.de/blog-tagesausfluege-groemitz.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lieblingsplatz-groemitz.de/en/day-trips-from-groemitz.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lieblingsplatz-groemitz.de/blog-tagesausfluege-groemitz.html"/>
+  </url>
+  <url>
+    <loc>https://www.lieblingsplatz-groemitz.de/en/day-trips-from-groemitz.html</loc>
+    <lastmod>2026-08-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lieblingsplatz-groemitz.de/blog-tagesausfluege-groemitz.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lieblingsplatz-groemitz.de/en/day-trips-from-groemitz.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lieblingsplatz-groemitz.de/blog-tagesausfluege-groemitz.html"/>
+  </url>
+  <url>
+    <loc>https://www.lieblingsplatz-groemitz.de/blog-groemitz-im-winter.html</loc>
+    <lastmod>2026-08-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lieblingsplatz-groemitz.de/blog-groemitz-im-winter.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lieblingsplatz-groemitz.de/en/groemitz-in-winter.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lieblingsplatz-groemitz.de/blog-groemitz-im-winter.html"/>
+  </url>
+  <url>
+    <loc>https://www.lieblingsplatz-groemitz.de/en/groemitz-in-winter.html</loc>
+    <lastmod>2026-08-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lieblingsplatz-groemitz.de/blog-groemitz-im-winter.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lieblingsplatz-groemitz.de/en/groemitz-in-winter.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lieblingsplatz-groemitz.de/blog-groemitz-im-winter.html"/>
+  </url>
+  <url>
+    <loc>https://www.lieblingsplatz-groemitz.de/blog-essen-restaurants-groemitz.html</loc>
+    <lastmod>2026-08-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lieblingsplatz-groemitz.de/blog-essen-restaurants-groemitz.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lieblingsplatz-groemitz.de/en/groemitz-restaurants-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lieblingsplatz-groemitz.de/blog-essen-restaurants-groemitz.html"/>
+  </url>
+  <url>
+    <loc>https://www.lieblingsplatz-groemitz.de/en/groemitz-restaurants-guide.html</loc>
+    <lastmod>2026-08-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lieblingsplatz-groemitz.de/blog-essen-restaurants-groemitz.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lieblingsplatz-groemitz.de/en/groemitz-restaurants-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lieblingsplatz-groemitz.de/blog-essen-restaurants-groemitz.html"/>
+  </url>
+  <url>
+    <loc>https://www.lieblingsplatz-groemitz.de/blog-barrierefrei-groemitz.html</loc>
+    <lastmod>2026-08-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lieblingsplatz-groemitz.de/blog-barrierefrei-groemitz.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lieblingsplatz-groemitz.de/en/accessible-holiday-groemitz.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lieblingsplatz-groemitz.de/blog-barrierefrei-groemitz.html"/>
+  </url>
+  <url>
+    <loc>https://www.lieblingsplatz-groemitz.de/en/accessible-holiday-groemitz.html</loc>
+    <lastmod>2026-08-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lieblingsplatz-groemitz.de/blog-barrierefrei-groemitz.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lieblingsplatz-groemitz.de/en/accessible-holiday-groemitz.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lieblingsplatz-groemitz.de/blog-barrierefrei-groemitz.html"/>
   </url>
   <url>
     <loc>https://www.lieblingsplatz-groemitz.de/impressum.html</loc>
-    <lastmod>2026-06-21</lastmod>
+    <lastmod>2026-08-23</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://www.lieblingsplatz-groemitz.de/datenschutz.html</loc>
-    <lastmod>2026-06-21</lastmod>
+    <lastmod>2026-08-23</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://www.lieblingsplatz-groemitz.de/agb.html</loc>
-    <lastmod>2026-06-21</lastmod>
+    <lastmod>2026-08-23</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
