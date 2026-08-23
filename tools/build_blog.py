@@ -45,6 +45,7 @@ UI = {
             ("ferienwohnung-groemitz-strandnah.html", "Ferienwohnung Grömitz Strandnah"),
             ("penthouse-ferienwohnung-groemitz.html", "Penthouse Ferienwohnung Grömitz"),
             ("barrierefreie-ferienwohnung-groemitz.html", "Barrierefreie Ferienwohnung Grömitz"),
+            ("blog.html", "Grömitz-Ratgeber"),
         ],
         "footer_legal": [
             ("impressum.html", "Impressum"),
@@ -79,6 +80,7 @@ UI = {
             ("../ferienwohnung-groemitz-strandnah.html", "Ferienwohnung Grömitz Strandnah"),
             ("../penthouse-ferienwohnung-groemitz.html", "Penthouse Ferienwohnung Grömitz"),
             ("../barrierefreie-ferienwohnung-groemitz.html", "Barrierefreie Ferienwohnung Grömitz"),
+            ("../blog.html", "Grömitz-Ratgeber"),
         ],
         "footer_legal": [
             ("../impressum.html", "Impressum"),
@@ -424,18 +426,6 @@ def blog_index(articles, lang):
     lang_link = "Read these guides in English" if lang == "de" else "Diese Seite auf Deutsch lesen"
 
     legacy = [
-        ("blog-ausflugstipps.html", "Ausflugstipps",
-         "Die schönsten Ausflugsziele rund um Grömitz",
-         "Der ältere Kurzüberblick zu Seebrücke, Zoo Arche Noah, Leuchtturm und Promenade.",
-         "The nicest places to visit around Grömitz",
-         "The earlier short overview of the pier, the zoo, the lighthouse and the promenade.",
-         "PK", "blog_pier"),
-        ("blog-restaurants.html", "Gastronomie",
-         "Beste Restaurants und Cafés in Grömitz",
-         "Der ältere Kurzüberblick zur Gastronomie an Promenade und Fußgängerzone.",
-         "The best restaurants and cafés in Grömitz",
-         "The earlier short overview of the promenade and pedestrian-street restaurants.",
-         "PK", "about_terrace"),
         ("blog-fahrradtouren.html", "Aktivitäten",
          "Fahrradtouren an der Ostsee: die schönsten Routen",
          "Küstentouren und Strecken durchs Hinterland ab Grömitz, mit Länge, Schwierigkeit und Einkehrmöglichkeiten.",
@@ -542,8 +532,6 @@ def sitemap(articles):
         ("/barrierefreie-ferienwohnung-groemitz.html", "monthly", "0.9"),
         ("/blog.html", "weekly", "0.8"),
         ("/en/blog.html", "weekly", "0.6"),
-        ("/blog-ausflugstipps.html", "monthly", "0.5"),
-        ("/blog-restaurants.html", "monthly", "0.5"),
         ("/blog-fahrradtouren.html", "monthly", "0.6"),
         ("/blog-wassersport.html", "monthly", "0.6"),
     ]

@@ -81,7 +81,22 @@ A = {
                 <p><strong>FKK</strong> ist an einem eigenen, ausgeschilderten Abschnitt möglich. Textilfreier und Textilstrand sind klar getrennt.</p>
 
                 <h2 id="strandkorb">Strandkorb mieten: was Sie wissen sollten</h2>
-                <p>Der Strandkorb ist an der Ostsee kein Luxus, sondern Windschutz, Sonnenschirm und Gepäckablage in einem. In Grömitz vermieten mehrere Betriebe entlang der Abschnitte, unter anderem über <a href="https://www.strandbutler.de" target="_blank" rel="noopener nofollow">strandbutler.de</a> und <a href="https://www.strandidyll.de" target="_blank" rel="noopener nofollow">strandidyll.de</a>. Preise und Verfügbarkeit unterscheiden sich je nach Anbieter, Abschnitt und Saison.</p>
+                <p>Der Strandkorb ist an der Ostsee kein Luxus, sondern Windschutz, Sonnenschirm und Gepäckablage in einem. In Grömitz vermieten <strong>rund 18 Betriebe</strong> entlang der Abschnitte – jeder Vermieter betreut dabei feste Abschnitte, Sie buchen also nicht „irgendeinen Korb in Grömitz“, sondern einen Korb bei einem bestimmten Anbieter an einem bestimmten Symbol.</p>
+                <div class="table-scroll">
+                <table class="article-table">
+                    <caption>Beispiele für Strandkorbvermieter und ihre Abschnitte (vollständige Liste bei der Gemeinde)</caption>
+                    <thead><tr><th>Vermieter</th><th>Abschnitt</th></tr></thead>
+                    <tbody>
+                        <tr><td>Familie Rocksien</td><td>Seestern</td></tr>
+                        <tr><td>Lars Langbehn</td><td>Hundestrand und Stern</td></tr>
+                        <tr><td>Bernhard Glaser</td><td>Ente und Blume</td></tr>
+                        <tr><td>Beach Club SO[U]L</td><td>Birne</td></tr>
+                        <tr><td>Petersen</td><td>Leuchtturm</td></tr>
+                        <tr><td>Sandra Rahn</td><td>Baum</td></tr>
+                    </tbody>
+                </table>
+                </div>
+                <p>Die vollständige Übersicht mit Telefonnummern führt die Gemeinde unter <a href="https://www.groemitz.de/strandkorbvermieter" target="_blank" rel="noopener nofollow">groemitz.de/strandkorbvermieter</a>; online buchen lässt sich unter anderem über <a href="https://www.strandbutler.de" target="_blank" rel="noopener nofollow">strandbutler.de</a> und <a href="https://strandkorbgroemitz.com" target="_blank" rel="noopener nofollow">strandkorbgroemitz.com</a>. Feste Preise veröffentlichen die Vermieter nicht – sie unterscheiden sich nach Anbieter, Abschnitt und Saison und werden über das jeweilige Buchungssystem angezeigt. Fragen Sie uns gern, wir kennen die Betriebe an unseren Abschnitten.</p>
                 <ul>
                     <li><strong>Vorab online buchen</strong> lohnt sich in den Sommerferien und an langen Wochenenden – gute Reihen sind früh weg.</li>
                     <li><strong>Wochenmiete statt Tagesmiete:</strong> Wer länger bleibt, fährt mit der Wochenkarte in der Regel deutlich günstiger.</li>
@@ -90,6 +105,7 @@ A = {
 
                 <h2 id="kosten">Was kostet der Strandzugang?</h2>
                 <p>Der Zugang zum konzessionierten Badestrand ist über die <strong>ostseecard</strong> abgedeckt – die Kurabgabe von Grömitz. Sie kostet 2026 in Grömitz und am Lensterstrand <strong>4,00 € pro Person und Tag in der Hauptsaison</strong> und <strong>2,50 € in der Nebensaison</strong>. Wir stellen die Karte bei der Anreise aus; abgerechnet wird pro Übernachtung.</p>
+                <p><strong>Kinder und Jugendliche zahlen nichts:</strong> Bis zur Vollendung des 18. Lebensjahres sind sie vollständig von der Kurabgabe befreit. Für eine Familie mit zwei Kindern bedeutet das 8,00 € statt 16,00 € pro Tag.</p>
                 <p>Enthalten sind neben dem Strandzugang unter anderem ermäßigte Busfahrten im Küstenbereich, günstigerer Eintritt in die Grömitzer Welle, kostenlose geführte Wanderungen und Sportangebote sowie Vergünstigungen bei Fahrradverleihern. Details dazu im Artikel <a href="blog-kurtaxe-ostseecard-groemitz.html">Kurabgabe und ostseecard Grömitz 2026</a>.</p>
 
                 <h2 id="sicherheit">Bewachung, Wasserqualität und Baden mit Kindern</h2>
@@ -145,7 +161,22 @@ A = {
                 <p><strong>Naturism</strong> is possible on a separate, signposted section. Clothed and nudist beaches are clearly divided.</p>
 
                 <h2 id="strandkorb">Renting a beach chair</h2>
-                <p>On the Baltic, the wicker <em>Strandkorb</em> is not a luxury – it is windbreak, parasol and locker in one. Several operators rent them along the Grömitz sections, including through <a href="https://www.strandbutler.de" target="_blank" rel="noopener nofollow">strandbutler.de</a> and <a href="https://www.strandidyll.de" target="_blank" rel="noopener nofollow">strandidyll.de</a>. Prices and availability vary by operator, section and season.</p>
+                <p>On the Baltic, the wicker <em>Strandkorb</em> is not a luxury – it is windbreak, parasol and locker in one. <strong>Around 18 operators</strong> rent them along the Grömitz sections, and each looks after fixed sections. You are not booking “a chair in Grömitz” but a chair from a particular operator at a particular symbol.</p>
+                <div class="table-scroll">
+                <table class="article-table">
+                    <caption>Examples of beach chair operators and their sections (full list held by the municipality)</caption>
+                    <thead><tr><th>Operator</th><th>Section</th></tr></thead>
+                    <tbody>
+                        <tr><td>Familie Rocksien</td><td>Seestern</td></tr>
+                        <tr><td>Lars Langbehn</td><td>Dog beach and Stern</td></tr>
+                        <tr><td>Bernhard Glaser</td><td>Ente and Blume</td></tr>
+                        <tr><td>Beach Club SO[U]L</td><td>Birne</td></tr>
+                        <tr><td>Petersen</td><td>Leuchtturm</td></tr>
+                        <tr><td>Sandra Rahn</td><td>Baum</td></tr>
+                    </tbody>
+                </table>
+                </div>
+                <p>The municipality keeps the full list with phone numbers at <a href="https://www.groemitz.de/strandkorbvermieter" target="_blank" rel="noopener nofollow">groemitz.de/strandkorbvermieter</a>; online booking runs through <a href="https://www.strandbutler.de" target="_blank" rel="noopener nofollow">strandbutler.de</a> and <a href="https://strandkorbgroemitz.com" target="_blank" rel="noopener nofollow">strandkorbgroemitz.com</a>, among others. Operators do not publish fixed rates – they vary by operator, section and season and appear in the respective booking system. Ask us if you like; we know the businesses on our sections.</p>
                 <ul>
                     <li><strong>Book ahead online</strong> during the German school holidays and long weekends – the good rows go early.</li>
                     <li><strong>Take the weekly rate</strong> rather than daily if you are staying more than three days; it is usually far cheaper.</li>
@@ -154,6 +185,7 @@ A = {
 
                 <h2 id="kosten">What does beach access cost?</h2>
                 <p>Access to the licensed bathing beach is covered by the <strong>ostseecard</strong>, the local visitor tax. In 2026 it costs <strong>€4.00 per person per day in high season</strong> and <strong>€2.50 in low season</strong> for Grömitz and Lensterstrand. We issue the card on arrival and it is charged per night.</p>
+                <p><strong>Children pay nothing:</strong> under-18s are fully exempt from the visitor tax. For a family with two children that means €8.00 a day instead of €16.00.</p>
                 <p>Besides beach access it includes reduced bus fares along the coast, cheaper entry to the Grömitzer Welle pool, free guided walks and sports sessions, and discounts at bike hire shops. Full detail in our article on the <a href="groemitz-tourist-tax.html">ostseecard and visitor tax</a>.</p>
 
                 <h2 id="sicherheit">Lifeguards, water quality and swimming with children</h2>
@@ -180,7 +212,7 @@ A = {
         ("Wie lang ist der Strand in Grömitz?",
          "Der Grömitzer Badestrand ist rund 8 Kilometer lang, feinsandig und nach Süden ausgerichtet. Er reicht vom Lensterstrand im Norden bis in den Süden des Ortes."),
         ("Was kostet der Strand in Grömitz?",
-         "Der Strandzugang ist über die ostseecard (Kurabgabe) abgedeckt. Sie kostet 2026 in Grömitz und am Lensterstrand 4,00 € pro Person und Tag in der Hauptsaison und 2,50 € in der Nebensaison. Ein separates Strandeintrittsgeld gibt es nicht."),
+         "Der Strandzugang ist über die ostseecard (Kurabgabe) abgedeckt. Sie kostet 2026 in Grömitz und am Lensterstrand 4,00 € pro Person und Tag in der Hauptsaison und 2,50 € in der Nebensaison. Kinder und Jugendliche bis 18 Jahre sind vollständig befreit. Ein separates Strandeintrittsgeld gibt es nicht."),
         ("Gibt es in Grömitz einen Hundestrand?",
          "Ja, im Norden nahe der Klinik Ostseedeich gibt es einen ausgewiesenen Hundestrand mit eigenen Parkplätzen. In der Ferienwohnung Lieblingsplatz Grömitz sind Haustiere allerdings nicht gestattet."),
         ("Wie heißen die Strandabschnitte in Grömitz?",
@@ -194,7 +226,7 @@ A = {
         ("How long is the beach in Grömitz?",
          "The bathing beach at Grömitz is around 8 kilometres long, fine-sanded and south-facing, running from Lensterstrand in the north to the southern edge of the resort."),
         ("What does the beach in Grömitz cost?",
-         "Beach access is covered by the ostseecard visitor tax: €4.00 per person per day in high season and €2.50 in low season for Grömitz and Lensterstrand in 2026. There is no separate beach entry fee."),
+         "Beach access is covered by the ostseecard visitor tax: €4.00 per person per day in high season and €2.50 in low season for Grömitz and Lensterstrand in 2026. Children and young people under 18 are fully exempt. There is no separate beach entry fee."),
         ("Is there a dog beach in Grömitz?",
          "Yes, there is a marked dog beach in the north near the Klinik Ostseedeich, with its own car park. Please note that pets are not permitted in the Lieblingsplatz Grömitz apartment."),
         ("What are the beach sections in Grömitz called?",
@@ -207,7 +239,9 @@ A = {
 
     "sources": [
         ("groemitz.de – Strandleben", "https://www.groemitz.de/strandleben"),
+        ("groemitz.de – Strandkorbvermieter", "https://www.groemitz.de/strandkorbvermieter"),
         ("groemitz.de – ostseecard", "https://www.groemitz.de/ostseecard"),
+        ("Kurabgabesatzung Grömitz ab 2026", "https://www.groemitz.eu/fileadmin/Dateien/News_und_Veranstaltungen/News/Amtliche_Bekanntmachungen/Satzungen_Div/Groemitz_Kurabgabe_ab_2026_Amtliche_Bekanntmachung.pdf"),
         ("Stand: August 2026", "https://www.groemitz.de/"),
     ],
     "related_de": [

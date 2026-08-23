@@ -10,6 +10,27 @@
       ],
       "destination": "https://www.lieblingsplatz-groemitz.de/:path*",
       "permanent": true
+    },
+    {
+      "source": "/blog-ausflugstipps.html",
+      "destination": "/blog-tagesausfluege-groemitz.html",
+      "permanent": true
+    },
+    {
+      "source": "/blog-restaurants.html",
+      "destination": "/blog-essen-restaurants-groemitz.html",
+      "permanent": true
+    }
+  ],
+  "headers": [
+    {
+      "source": "/assets/images/blog/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
     }
   ]
 }
